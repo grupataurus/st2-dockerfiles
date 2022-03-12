@@ -6,7 +6,9 @@ LABEL com.stackstorm.component="st2actionrunner"
 RUN apt-get install -y rsync \
   inetutils-traceroute \
   net-tools \
-  dnsutils
+  dnsutils \
+  gcc \
+  libkrb5-dev
 
 USER root
 
